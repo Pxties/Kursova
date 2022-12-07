@@ -495,6 +495,10 @@ textarea {
     margin-top: 17px;
     background-color: #D9D9D9;
   }
+
+  .header__image-link:hover{
+    opacity: .9;
+  }
   /* Header Styles end */
 
   /* Intro Styles start */
@@ -648,4 +652,109 @@ textarea {
   .footer__images:hover{
     opacity: .5;
   }
+
   /* Footer Styles end */
+
+  /* About Styles start */
+
+  .about{
+    background-color: white;
+    max-width: 1152px;
+    margin: 0 auto;
+  }
+
+  .about__image{
+    margin-top: 30px;
+    margin-right: 14px;
+    margin-bottom: 23px;
+  }
+  
+  .about__container{
+    display: flex;
+  }
+
+  .about__text{
+    padding-top: 30px;
+    max-width: 626px;
+    font-size: 26px;
+    line-height: 29px;
+    text-align: justify;
+    text-indent: 50px;
+  }
+
+  .about__text2{
+    max-width: 856px;
+    font-size: 26px;
+    line-height: 29px;
+    text-align: justify;
+    text-indent: 50px;
+    margin-bottom: 70px;
+  }
+
+  /* About Styles end */
+
+  /* Feedback Styles start */
+
+  .feedback{
+    background-color: white;
+    max-width: 1152px;
+    margin: 0 auto;
+  }
+
+  .feedback__title{
+    padding-top: 62px;
+    font-size: 20px;
+    line-height: 29px;
+    opacity: .5;
+  }
+
+  .feedback__text{
+    padding-top: 64px;
+    font-size: 32px;
+    line-height: 47px;
+    font-weight: 900;
+    margin-bottom: 31px;
+  }
+
+  .feedback__list{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .feedback__text2{
+    padding-top: 73px;
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 400;
+  }
+
+  .feedback__form-field{
+    border-radius: 5px;
+    width: 478px;
+    height: 63px;
+    border-width: 1px;
+    background-color: rgba(217, 217, 217, 0.1);
+  }
+
+  .feedback__form-field2{
+    border-radius: 5px;
+    width: 856px;
+    height: 262px;
+    border-width: 1px;
+    background-color: rgba(217, 217, 217, 0.1);
+  }
+
+  .feedback__button{
+    background-color: transparent;
+    border-radius: 8px;
+    width: 149px;
+    height: 46px;
+    margin-top: 37px;
+    margin-bottom: 59px;
+  }
+
+  .feedback__button:hover{
+    background-color: #E5E5E5;
+  }
+
+  /* Feedback Styles start */
